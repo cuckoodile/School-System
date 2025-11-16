@@ -1,0 +1,29 @@
+# Visual Studio cache and internal files
+.vs/
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Visual Studio 2017+
+*.VC.db
+*.VC.VC.opendb

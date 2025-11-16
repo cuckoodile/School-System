@@ -28,6 +28,9 @@
     End Sub
 
     Private Sub ShowPage(pageToShow As BasePage)
+        ' Check if we're in design mode
+        If Me.DesignMode Then Return
+
         ' Hide current page if exists
         If currentPage IsNot Nothing Then
             currentPage.Visible = False
